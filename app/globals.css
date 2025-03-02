@@ -1,5 +1,10 @@
 @import "tailwindcss";
+@config "../tailwind.config.mjs";
 
 *{
   font-family: Outfit;
+  light: '#ffffff';
+
 }
+
+
