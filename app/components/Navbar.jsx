@@ -48,7 +48,7 @@ function Navbar() {
         <Image src={assets.close_black} alt='close' className='w-6 ' onClick={closeMenu} />
        </div>
         <li>
-        <a href='#top' >Home</a>
+        <a href='#top' onClick={closeMenu}>Home</a>
 
         </li>
             <li><a href='#about' onClick={closeMenu}>About Me</a></li>
@@ -58,6 +58,7 @@ function Navbar() {
 
     </ul>
    </nav>
+   
    </>
   )
 }
