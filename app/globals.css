@@ -1,10 +1,17 @@
 @import "tailwindcss";
-@config "../tailwind.config.mjs";
+/* @config "../tailwind.config.mjs"; */
 
-*{
-  font-family: Outfit;
-  light: '#ffffff';
-
+* {
+  font-family: 'Outfit', sans-serif;
 }
 
+@theme {
+  --color-lightHover: #f3f4f6;
+  --color-darkHover: #2a004a;
+  --color-darkTheme: #1a202c;
 
+  --font-outfit: Outfit, sans-serif;
+
+  --shadow-blackk: 4px 4px 0 #000;
+  --shadow-white: 4px 4px 0 #fff;
+}
