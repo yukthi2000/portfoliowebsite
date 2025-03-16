@@ -35,7 +35,7 @@ function Navbar() {
     <Image src={assets.header_bg_color} alt='header_bg_color' className='w-full' />
    </div>
    <nav className={`w-full fixed flex items-center justify-between px-5 lg:px-8 xl:px-[8%] py-4 z-50 
-    ${scroll ? "bg-white shadow-sm backdrop-blur-lg opacity-90": "" }`}>
+    ${scroll ? "shadow-sm backdrop-blur-md opacity-90": "" }`}>
     <a href='#top' >
         <Image src={assets.logo} alt='logo' className='w-28 cusrsor-pointer mr-14' />
     </a>
